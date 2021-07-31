@@ -1,0 +1,145 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&family=Roboto:wght@300;400&display=swap');
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+
+/* #F3EED9
+#824936
+#222C2A 
+18, 21, 60, 36
+*/
+
+:root {
+    --color-primary: #F3EED9;
+    --color-secondary: #824936;
+    --color-dark: #222C2A;
+    --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'Roboto', sans-serif; 
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+}
+
+.container {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--color-primary);
+    padding: 10rem 0;
+    height: auto;
+}
+
+.header-con {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+header {
+    color: var(--color-secondary);
+}
+header p{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: var(--font-secondary);
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+header h1{
+    font-size: 6rem;
+    font-weight: 900;
+    width: 80rem;
+    text-align: center;
+}
+.middle-bar {
+    padding: 10rem 0;
+}
+
+.middle-bar-con {
+    display: flex;
+    justify-content: space-between;
+}
+.half-width{
+    width:48%;
+}
+
+.middle-bar h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.middle-bar p {
+    font-size: 2.1rem;
+}
+
+.sec3 {
+    background: var(--color-dark);
+    padding: 8rem 0;
+}
+
+.sec3-con  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3-con h1 {
+    font-size: 3.6rem;
+    color: var(--color-primary);
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.sec3-con p {
+    font-size: 2.1rem;
+    color: var(--color-primary);
+}
+
+.sec3-con img {
+    width:100%;
+}
+
+.last-sec{
+    background: var(--color-secondary);
+    padding: 8rem 0;
+}
+
+.last-sec-con  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-sec-con h1 {
+    font-size: 3.6rem;
+    color: var(--color-primary);
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.last-sec-con p {
+    font-size: 2.1rem;
+    color: var(--color-primary);
+}
+
+.last-sec-con img {
+    width:100%;
+}
+
